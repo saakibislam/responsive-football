@@ -8,8 +8,9 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 700;
+    color: white;
 }
 
 /*------------------
@@ -104,6 +105,9 @@ h3{
     align-items: center;
     margin: 165px 180px 100px;
 }
+h2{
+    font-size: 3em;
+}
 .highlights-details{
     padding-right:70px;
     margin-bottom: 50px;
@@ -130,4 +134,159 @@ footer span a{
 footer span a i{
     margin: 5px 15px;
     font-size: 25px;
+}
+
+/* Media Queries 688px*/
+
+@media only screen and (max-width:688px) {
+    .navbar{ 
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        display: block;
+        margin-right: 15px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .button{
+        color: white;
+        font-size: 15px;
+        background-color: #E02C6D;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .top-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:#2D25A0;
+        
+    }
+    .flexible{
+        padding: 5% 10%;
+    }
+    .banner{
+        width: 329px;
+        height: 259px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+        margin: 40px 50px 0px;
+    }
+    .highlights{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 50px 80px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .highlights-details{
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+    .highlights img{
+        margin-top: 40px;
+        width: 340px;
+        height: 250px;
+    }
+    footer img{
+        width: 250px;
+        height: 70px;
+    }
+    footer span a i{
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+}
+
+/* Media Queries 992px*/
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .navbar{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        margin-right: 15px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .button{
+        color: white;
+        font-size: 15px;
+        background-color: #E02C6D;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .top-banner{
+        display: flex;
+        align-items: center;
+        background-color:#2D25A0;
+        
+    }
+    .flexible{
+        padding: 5% 3%;
+    }
+    .banner{
+        width: 329px;
+        height: 259px;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+        margin: 40px 50px 0px;
+    }
+    .highlights{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px 50px 80px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .highlights-details{
+        font-size: 15px;
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+    .highlights img{
+        margin-top: 40px;
+        width: 340px;
+        height: 250px;
+    }
+    footer img{
+        width: 250px;
+        height: 70px;
+    }
+    footer span a i{
+        margin: 5px 10px;
+        font-size: 15px;
+    }
 }
