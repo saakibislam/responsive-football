@@ -63,6 +63,9 @@ header{
     text-decoration: none;
     padding: 8px 20px;
 }
+.button-icon{
+    margin-left: 15px;
+}
 .banner{
     width: 557px;
     height: 438px;
