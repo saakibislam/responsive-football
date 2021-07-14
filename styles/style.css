@@ -1,17 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
+/* --------------
+Common Styles
+--------------- */
+
 body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: 700;
 }
-#banner-title{
-    color: white;
-    font-size: 4rem;
+
+/*------------------
+ Header & Navigation 
+--------------------*/
+
+header{
+    background-color:#2D25A0;
+    padding-top: 30px;
 }
-.top-banner{
+.navbar{ 
+    display: flex;
+    margin-left: 115px;
+    margin-right: 125px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>ul>li{
+    list-style: none;
+    display: inline;
+    margin-right: 45px;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+/*-------------
+ Banner Section
+ --------------*/
+ 
+ .top-banner{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -21,18 +52,21 @@ h1{
 .flexible{
     padding: 5% 7%;
 }
-.live-button{
+#banner-title{
+    color: white;
+    font-size: 4em;
+}
+.button{
     color: white;
     font-size: 20px;
     background-color: #E02C6D;
     text-decoration: none;
     padding: 8px 20px;
 }
-.banner img{
+.banner{
     width: 557px;
     height: 438px;
 }
-
 /* Players Section */
 
 .players{
@@ -40,13 +74,7 @@ h1{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-    padding: 10px 180px;
-    margin-top: 60px;
-}
-h3{
-    font-size: 1.7em;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: 70px 180px 0px;
 }
 .player img{
     width: 100%;
@@ -59,6 +87,11 @@ h3{
     background-color: white;
     filter:drop-shadow(0px 0px 2px gray)
 }
+h3{
+    font-size: 1.7em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 
 /* Highlights */
 
@@ -66,9 +99,7 @@ h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 180px;
-    margin-top: 155px;
-    margin-bottom: 100px;
+    margin: 165px 180px 100px;
 }
 .highlights-details{
     padding-right:70px;
@@ -79,7 +110,9 @@ h3{
     height: 427px;
 }
 
-/* Footer */
+/* ----------
+Footer 
+-----------*/
 footer{
     text-align: center;
     margin: 80px auto 40px;
@@ -88,10 +121,10 @@ footer img{
     width: 483px;
     height: 120px;
 }
-span a{
+footer span a{
     color: gray;
 }
-span i{
+footer span a i{
     margin: 5px 15px;
     font-size: 25px;
 }
