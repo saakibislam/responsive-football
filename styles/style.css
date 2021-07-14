@@ -7,6 +7,10 @@ h1{
     font-size: 3rem;
     font-weight: 700;
 }
+#banner-title{
+    color: white;
+    font-size: 4rem;
+}
 .top-banner{
     display: flex;
     justify-content:space-between;
@@ -15,7 +19,7 @@ h1{
     
 }
 .flexible{
-    padding: 3% 10%;
+    padding: 5% 7%;
 }
 .live-button{
     color: white;
@@ -39,14 +43,21 @@ h1{
     padding: 10px 180px;
     margin-top: 60px;
 }
-.players img{
-    width: 90%;
-    border-radius: 10px;
+h3{
+    font-size: 1.7em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.player img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .player{
-    padding: 5px 10px;
-    border-radius: 10px;
-
+    padding: 15px 15px;
+    background-color: white;
+    filter:drop-shadow(0px 0px 2px gray)
 }
 
 /* Highlights */
@@ -57,6 +68,7 @@ h1{
     align-items: center;
     padding: 10px 180px;
     margin-top: 155px;
+    margin-bottom: 100px;
 }
 .highlights-details{
     padding-right:70px;
@@ -70,7 +82,7 @@ h1{
 /* Footer */
 footer{
     text-align: center;
-    margin: 100px auto;
+    margin: 80px auto 40px;
 }
 footer img{
     width: 483px;
@@ -80,6 +92,6 @@ span a{
     color: gray;
 }
 span i{
-    margin: 10px 5px;
+    margin: 5px 15px;
     font-size: 25px;
 }
