@@ -29,3 +29,23 @@ h1{
     width: 557px;
     height: 438px;
 }
+
+/* Players Section */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+    padding: 10px 180px;
+    margin-top: 60px;
+}
+.players img{
+    width: 90%;
+    border-radius: 10px;
+}
+.player{
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
