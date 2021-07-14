@@ -4,7 +4,6 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    color: white;
     font-size: 3rem;
     font-weight: 700;
 }
@@ -48,4 +47,39 @@ h1{
     padding: 5px 10px;
     border-radius: 10px;
 
+}
+
+/* Highlights */
+
+.highlights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 180px;
+    margin-top: 155px;
+}
+.highlights-details{
+    padding-right:70px;
+    margin-bottom: 50px;
+}
+.highlights img{
+    width: 567px;
+    height: 427px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    margin: 100px auto;
+}
+footer img{
+    width: 483px;
+    height: 120px;
+}
+span a{
+    color: gray;
+}
+span i{
+    margin: 10px 5px;
+    font-size: 25px;
 }
