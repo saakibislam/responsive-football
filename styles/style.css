@@ -167,20 +167,16 @@ Bonus Section 1
 /* ----------
 Footer 
 -----------*/
-footer {
+
+footer > div,
+a {
+  color: grey;
+  margin: auto;
   text-align: center;
-  margin: 80px auto 40px;
+  width: 50%;
 }
 footer img {
-  width: 483px;
-  height: 120px;
-}
-footer span a {
-  color: gray;
-}
-footer span a i {
-  margin: 5px 15px;
-  font-size: 25px;
+  width: 70%;
 }
 
 /* Media Queries 688px*/
@@ -265,14 +261,6 @@ footer span a i {
     border-radius: 25px;
     box-shadow: 0px 0px 8px gray;
   }
-  footer img {
-    width: 250px;
-    height: 70px;
-  }
-  footer span a i {
-    margin: 5px 10px;
-    font-size: 15px;
-  }
 }
 
 /* Media Queries 992px*/
@@ -340,13 +328,5 @@ footer span a i {
     margin-top: 40px;
     width: 340px;
     height: 250px;
-  }
-  footer img {
-    width: 250px;
-    height: 70px;
-  }
-  footer span a i {
-    margin: 5px 10px;
-    font-size: 15px;
   }
 }
